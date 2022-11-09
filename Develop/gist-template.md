@@ -15,6 +15,7 @@
 - [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
+- [Greedy Match](#greedy-match)
 
 ## Regex Components
 
@@ -33,7 +34,7 @@
 
 ### Quantifiers
 
-- Qualifiers match a number of instances of a character or group in a string. There are 2 different quantifiers in this regex, identified by `{}` and `+`
+- Quantifiers match a number of instances of a character or group in a string. There are 2 different quantifiers in this regex, identified by `{}` and `+`
 
 Quantifier 1:
 `{`2,6`}`
@@ -92,6 +93,14 @@ B.E. 2:
 B.E. 3:
 
 - `[` a-z\. `]`
+
+### Greedy Match
+
+- When a match is greedy, it tries to extract as much possible information from it's assigned expression until it conforms to a pattern that would have been sufficient shorter. This allows for the accepting of multiple different lengths and variations of expression as long as it meets the desired criteria.
+
+- The `+` Quantifier is inherently greedy, which means this regex example contains two greedy matches. See [Quantifiers](#quantifiers) for the `+` quantifier/greedy match examples.
+
+    - There are lazy matches, which repeats the first token as few times as possible. An example would look like `+?` (instead of `+`). Further explanation would be available in a separate, more relevant example.
 
 ## Author
 
