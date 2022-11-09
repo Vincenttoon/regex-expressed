@@ -18,6 +18,8 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 ## Usage
 
+[Gist: Email Validation](https://gist.github.com/Vincenttoon/1f10293586cd92f5e5d040f28c1f4686#quantifiers)
+
 View Gist, enjoy.
 
 ## Questions?
