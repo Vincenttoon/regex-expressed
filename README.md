@@ -12,13 +12,7 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 ## Table of Contents
 
-* [Installation](#installation)
-
 * [Usage](#usage)  
-
-* [Contributors](#contributors)
-
-* [Tests](#tests)
 
 * [Questions?](#questions)
 
